@@ -15,4 +15,5 @@ To get started...
 9. Copy the Python headers section.
 10. You only need the header information. Overwrite the headers dictionary in the code and you will be good to go. This contains your authentication token and cookies
 11. Make sure you update the path to the CSV file in __main__.
+12. Also make sure to update the range() function in the code to make sure you have enough pages. I always add number of pages + 5
 12. Run code!
