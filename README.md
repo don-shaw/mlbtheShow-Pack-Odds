@@ -12,7 +12,7 @@ To get started...
 6. Select Copy > Copy as cURL (cmd)
 7. Navigate to https://curl.trillworks.com/
 8. Paste the curl command into the window
-9. Copy the Python request code to notepad
-10. You only need the header information. Overwrite the headers dictionary and you will be good to go.
+9. Copy the Python headers section.
+10. You only need the header information. Overwrite the headers dictionary in the code and you will be good to go. This contains your authentication token and cookies
 11. Make sure you update the path to the CSV file in __main__.
 12. Run code!
