@@ -8,18 +8,17 @@ requests.packages.urllib3.disable_warnings()
 
 
 def get_cards(csv_file):
+    headers = {'your headers go here}
 
-    headers = {
-        'YOU NEED TO PUT YOUR HEADER INFORMATION HERE. FORGET ABOUT THE PARAMS PART AND THE REQUEST... JUST THE HEADERS!'
-        }
+    
     try:
             with open(csv_file, 'w', newline='', encoding='utf-8') as csv_file:
                 packfile = csv.DictWriter(csv_file, fieldnames=['pack type','pack id', 'date', 'url', 'item', 'type', 'rarity'])
                 packfile.writeheader()
-                for x in range(1, 25):
+                for x in range(1, 35):
                     params = (('page', str(x) + '^'), ('', ''), )
                     print(params)
-                    r = requests.get("https://theshownation.com/mlb20/packs/open_pack_history", headers=headers, params=params,
+                    r = requests.get("https://mlb21.theshow.com/packs/open_pack_history", headers=headers, params=params,
                                                                                                          verify=False)
                     print(r.url)
                     pagetext = r.text

@@ -4,7 +4,7 @@ This tool will download all of your pack history for MLB The Show 20
 
 To get started...
 
-1. Log in and browse to https://theshownation.com/mlb20/packs/open_pack_history
+1. Log in and browse to https://mlb21.theshow.com/packs/open_pack_history
 2. Open up developer tools in your browser (F12 on Windows)
 3. Scroll down and select the second page
 4. Click on the network tab of developer tools
